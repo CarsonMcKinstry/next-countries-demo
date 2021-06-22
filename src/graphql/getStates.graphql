@@ -1,0 +1,8 @@
+query getStates($code: ID!) {
+    country(code: $code) {
+        states {
+            code
+            name
+        }
+    }
+}
